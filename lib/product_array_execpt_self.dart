@@ -17,7 +17,7 @@ class ExecptSelfArrayProduct {
     for (int i = 0; i < n; i++) {
       answer[i] = leftProductList[i] * rightProductList[i];
     }
-
+    print(answer);
     return answer;
   }
 }
